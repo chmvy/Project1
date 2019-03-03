@@ -1,12 +1,25 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-int main(int argc, char *argv[])
+//函数外定义变量x和y
+int x;
+int y;
+int addtwonum()
 {
-	/*
-	我的第一个 C 程序
-	%s 字符串输出
-	%d 整型输出
-	*/
-	printf("可执行程序 %s ,参数个数为[%d], 运行输出：[%s]\n", argv[0], argc, argv[1]);
+	//声明变量
+	extern int x;
+	extern int y;
+	x = 1;
+	y = 2; 
+
+	return x + y;
+}
+
+int main()
+{
+	int result;
+	//
+	result = addtwonum();
+	printf("result的值：%d", result);
+
 	return 0;
 }
