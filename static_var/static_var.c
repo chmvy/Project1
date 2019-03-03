@@ -12,6 +12,7 @@ int main()
 	int i;
 	char *p;
 	char str[10] = "hello";
+	//都是"hello",但是地址不一样
 	char *q = "hello";
 	p = (char*)malloc(100);
 	free(p);
