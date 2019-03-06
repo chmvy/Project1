@@ -11,16 +11,18 @@ int main()
 	static int m1 = 2, m2;
 	int i;
 	char *p;
-	char str[10] = "hello";
-	//都是"hello",但是地址不一样
+	char str[] = "hello";
 	char *q = "hello";
 	p = (char*)malloc(100);
 	free(p);
 	//%p 指针的值
 	printf("栈区 变量地址 i: %p\n", &i);
 	printf("              p: %p\n", &p);
+	//"q"和"str"地址不一样,尽管他们值一样
 	printf("            str: %p\n", str);
+	printf("            str: %d\n", sizeof(str));
 	printf("              q: %p\n", &q);
+	printf("              q: %d\n", sizeof(q));
 	printf("堆区地址-动态申请:%p\n",p);
 	printf("全局变量外部有初始值k1: %p\n", &k1);
 	printf("外部无初始值 k2: %p\n", &k2);
