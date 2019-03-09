@@ -23,6 +23,7 @@
     <ProjectGuid>{173CB6C0-DE83-417C-B52D-133DAA38C1D7}</ProjectGuid>
     <RootNamespace>switcht</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>12 switch实例</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

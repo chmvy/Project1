@@ -12,6 +12,7 @@
 看看linux内核里各接口的定义。函数指针的使用使的内核可以很多人同时开发，并且大家只需要知道相应的接口就可以了。这套框架，离不开函数指针。*/
 void populate_array(int *array, size_t arraysize, int (*getnextvalue)(void))
 {
+	//size_t类型,专门的内存空间类型,跟int类型相似
 	for (size_t i = 0; i < arraysize; i++)
 		array[i] = getnextvalue();
 }

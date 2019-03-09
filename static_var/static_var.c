@@ -30,7 +30,7 @@ int main()
 	printf("静态外部无初始值 k4: %p\n", &k4);
 	printf("内静态有初始值 m1: %p\n", &m1);
 	printf("内静态无初始值 m2: %p\n", &m2);
-	//常量不需要&也可调用地址
+	//字符串变量名 就是字符串起始地址
 	printf("文字常量的地址: %p, %s\n", &q, q);
 	printf("程序区地址: %p\n", &main);
 	return 0;

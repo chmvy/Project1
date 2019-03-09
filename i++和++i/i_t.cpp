@@ -7,7 +7,7 @@ int main()
 {
 	int banlance[5] = { 1000, 2, 3, 17, 50 };
 	double avg;
-	//传递数组指针给函数
+	//传递数组指针给函数,banlance是指针
 	avg = getAverage(banlance, 5);
 
 	printf("平均数是：%f",avg);

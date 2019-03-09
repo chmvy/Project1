@@ -23,6 +23,7 @@
     <ProjectGuid>{9CA78104-A962-47F6-9584-82440E90E0F7}</ProjectGuid>
     <RootNamespace>staticlocalvar</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>10 静态局部变量</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

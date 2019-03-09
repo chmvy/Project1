@@ -23,6 +23,7 @@
     <ProjectGuid>{61536268-612E-458B-B394-C34D471BE978}</ProjectGuid>
     <RootNamespace>sizet</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>09 回调函数实例</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

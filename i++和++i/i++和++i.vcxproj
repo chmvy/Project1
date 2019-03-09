@@ -23,6 +23,7 @@
     <ProjectGuid>{B83A02F3-7609-4582-AB04-D75FB3A20EAB}</ProjectGuid>
     <RootNamespace>i和i</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>08 传递数组指针给函数</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

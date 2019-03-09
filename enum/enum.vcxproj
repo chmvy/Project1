@@ -23,6 +23,7 @@
     <ProjectGuid>{9131477C-8B99-439B-ADB8-C7905FBDA33E}</ProjectGuid>
     <RootNamespace>enum</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>07 枚举enum实例</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

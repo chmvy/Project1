@@ -23,6 +23,7 @@
     <ProjectGuid>{E9428D60-A21D-414A-A020-C583D4FB4C28}</ProjectGuid>
     <RootNamespace>twofiles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>14 声明引用外部文件</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
