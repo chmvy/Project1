@@ -3,39 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28621.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lesson_01", "lesson_01\lesson_01.vcxproj", "{F6AADD89-CB10-424A-915A-83D362F0ED22}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 hello world", "lesson_01\lesson_01.vcxproj", "{F6AADD89-CB10-424A-915A-83D362F0ED22}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lesson_02", "lesson_02\lesson_02.vcxproj", "{C1AB98A0-9455-4BEF-B32D-254653C3DB4B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 32位无符号整数格式化", "lesson_02\lesson_02.vcxproj", "{C1AB98A0-9455-4BEF-B32D-254653C3DB4B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lesson_04", "lesson_04\lesson_04.vcxproj", "{54D79267-58C3-4BD7-AB24-2105FF6E31DE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 强制转换格式", "lesson_04\lesson_04.vcxproj", "{54D79267-58C3-4BD7-AB24-2105FF6E31DE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lesson_03", "lesson_03\lesson_03.vcxproj", "{4E761769-242A-49D5-9FDC-5C6FB5D2DE59}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 浮点数实例", "lesson_03\lesson_03.vcxproj", "{4E761769-242A-49D5-9FDC-5C6FB5D2DE59}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lesson_05", "lesson_05\lesson_05.vcxproj", "{FD05EB57-D585-4401-A4B7-CA6DAF42CB8E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 C语言布尔类型声明方法", "lesson_05\lesson_05.vcxproj", "{FD05EB57-D585-4401-A4B7-CA6DAF42CB8E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static_var", "static_var\static_var.vcxproj", "{D78143F0-89B8-415E-8AFC-5B46BF00BDEF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11 变量存储类", "static_var\static_var.vcxproj", "{D78143F0-89B8-415E-8AFC-5B46BF00BDEF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static_local_var", "static_local_var\static_local_var.vcxproj", "{9CA78104-A962-47F6-9584-82440E90E0F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 静态局部变量", "static_local_var\static_local_var.vcxproj", "{9CA78104-A962-47F6-9584-82440E90E0F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "two_files", "two_files\two_files.vcxproj", "{E9428D60-A21D-414A-A020-C583D4FB4C28}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14 声明引用外部文件", "two_files\two_files.vcxproj", "{E9428D60-A21D-414A-A020-C583D4FB4C28}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "switch_t", "switch_t\switch_t.vcxproj", "{173CB6C0-DE83-417C-B52D-133DAA38C1D7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12 switch实例", "switch_t\switch_t.vcxproj", "{173CB6C0-DE83-417C-B52D-133DAA38C1D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loop_t", "loop_t\loop_t.vcxproj", "{465F209F-7EF1-4859-BF06-83DD426520A4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 C语言无限循环写法探讨", "loop_t\loop_t.vcxproj", "{465F209F-7EF1-4859-BF06-83DD426520A4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "value_pass", "value_pass\value_pass.vcxproj", "{5B9D5035-7A83-4941-BDA5-B5975644FA7E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15 函数 实参传递", "value_pass\value_pass.vcxproj", "{5B9D5035-7A83-4941-BDA5-B5975644FA7E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{995EA136-A1E0-4B7B-A4FE-97AD0E45796E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13 二维数据的变量写法", "test\test.vcxproj", "{995EA136-A1E0-4B7B-A4FE-97AD0E45796E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array", "array\array.vcxproj", "{4EF01B87-3F11-4930-9CEE-944B2DA24B8D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16 将数组传递给函数的三种方法", "array\array.vcxproj", "{4EF01B87-3F11-4930-9CEE-944B2DA24B8D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "i++和++i", "i++和++i\i++和++i.vcxproj", "{B83A02F3-7609-4582-AB04-D75FB3A20EAB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08 传递数组指针给函数", "i++和++i\i++和++i.vcxproj", "{B83A02F3-7609-4582-AB04-D75FB3A20EAB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enum", "enum\enum.vcxproj", "{9131477C-8B99-439B-ADB8-C7905FBDA33E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 枚举enum实例", "enum\enum.vcxproj", "{9131477C-8B99-439B-ADB8-C7905FBDA33E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "size_t", "size_t\size_t.vcxproj", "{61536268-612E-458B-B394-C34D471BE978}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 回调函数实例", "size_t\size_t.vcxproj", "{61536268-612E-458B-B394-C34D471BE978}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_read_write", "file_read_write\file_read_write.vcxproj", "{38C5CAB8-40B8-463C-8674-1A9B7ED44BB1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17 文件读写之写文件", "file_read_write\file_read_write.vcxproj", "{38C5CAB8-40B8-463C-8674-1A9B7ED44BB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18 文件读写之读取文件", "18 文件读写之读取文件\18 文件读写之读取文件.vcxproj", "{A39CAA5E-117F-44B4-9180-FC04958BC9C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19 预处理器与宏", "19 预处理器与宏\19 预处理器与宏.vcxproj", "{93D0667B-A974-41CB-8A5B-B465AC4B509E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20 C语言内存管理", "20 C语言内存管理\20 C语言内存管理.vcxproj", "{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冒泡排序", "冒泡排序\冒泡排序.vcxproj", "{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +189,38 @@ Global
 		{38C5CAB8-40B8-463C-8674-1A9B7ED44BB1}.Release|x64.Build.0 = Release|x64
 		{38C5CAB8-40B8-463C-8674-1A9B7ED44BB1}.Release|x86.ActiveCfg = Release|Win32
 		{38C5CAB8-40B8-463C-8674-1A9B7ED44BB1}.Release|x86.Build.0 = Release|Win32
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Debug|x64.ActiveCfg = Debug|x64
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Debug|x64.Build.0 = Debug|x64
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Debug|x86.Build.0 = Debug|Win32
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Release|x64.ActiveCfg = Release|x64
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Release|x64.Build.0 = Release|x64
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Release|x86.ActiveCfg = Release|Win32
+		{A39CAA5E-117F-44B4-9180-FC04958BC9C1}.Release|x86.Build.0 = Release|Win32
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Debug|x64.ActiveCfg = Debug|x64
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Debug|x64.Build.0 = Debug|x64
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Debug|x86.ActiveCfg = Debug|Win32
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Debug|x86.Build.0 = Debug|Win32
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Release|x64.ActiveCfg = Release|x64
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Release|x64.Build.0 = Release|x64
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Release|x86.ActiveCfg = Release|Win32
+		{93D0667B-A974-41CB-8A5B-B465AC4B509E}.Release|x86.Build.0 = Release|Win32
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Debug|x64.ActiveCfg = Debug|x64
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Debug|x64.Build.0 = Debug|x64
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Debug|x86.ActiveCfg = Debug|Win32
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Debug|x86.Build.0 = Debug|Win32
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Release|x64.ActiveCfg = Release|x64
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Release|x64.Build.0 = Release|x64
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Release|x86.ActiveCfg = Release|Win32
+		{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}.Release|x86.Build.0 = Release|Win32
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Debug|x64.ActiveCfg = Debug|x64
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Debug|x64.Build.0 = Debug|x64
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Debug|x86.ActiveCfg = Debug|Win32
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Debug|x86.Build.0 = Debug|Win32
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x64.ActiveCfg = Release|x64
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x64.Build.0 = Release|x64
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x86.ActiveCfg = Release|Win32
+		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
