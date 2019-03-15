@@ -43,7 +43,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19 预处理器与宏", "19
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20 C语言内存管理", "20 C语言内存管理\20 C语言内存管理.vcxproj", "{C72F8BDB-F05E-4F7B-BF44-37FC13A58F63}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冒泡排序", "冒泡排序\冒泡排序.vcxproj", "{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21 冒泡排序", "冒泡排序\冒泡排序.vcxproj", "{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22 选择排序", "22 选择排序\22 选择排序.vcxproj", "{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +223,14 @@ Global
 		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x64.Build.0 = Release|x64
 		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x86.ActiveCfg = Release|Win32
 		{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}.Release|x86.Build.0 = Release|Win32
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Debug|x64.ActiveCfg = Debug|x64
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Debug|x64.Build.0 = Debug|x64
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Debug|x86.Build.0 = Debug|Win32
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Release|x64.ActiveCfg = Release|x64
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Release|x64.Build.0 = Release|x64
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Release|x86.ActiveCfg = Release|Win32
+		{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

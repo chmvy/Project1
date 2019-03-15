@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{DFEC5EDE-CA82-4DD9-BBCB-C49F63ECE020}</ProjectGuid>
-    <RootNamespace>冒泡排序</RootNamespace>
+    <ProjectGuid>{A3D7E995-F9F9-47DC-A8E3-9F49B023DACB}</ProjectGuid>
+    <RootNamespace>My22选择排序</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>21 冒泡排序</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bubblesort.c" />
+    <ClCompile Include="swapvalue.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
